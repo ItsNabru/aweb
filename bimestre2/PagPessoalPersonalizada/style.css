@@ -1,0 +1,100 @@
+/* Estilos gerais */
+body {
+    font-family: cambria, sans-serif;
+    background-color: #d39de4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #750479;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    color: #4c0a4e;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+p {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid #5d0081;
+}
+
+/* Links do menu */
+a {
+    text-decoration: none;
+    color: #a53bc5;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #333;
+}
+
+/* Tabela de educação */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #620f69;
+    color: rgb(255, 255, 255);
+}
+
+/* Seções */
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    border-bottom: 2px solid #984caf;
+    padding-bottom: 5px;
+    width: fit-content;
+}
+
+/* Lista de contatos */
+#CONTATOS ol {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#CONTATOS ol li {
+    padding: 5px 0;
+    color: #333;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgb(149, 54, 161);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
