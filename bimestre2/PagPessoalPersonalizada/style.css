@@ -1,7 +1,7 @@
 /* Estilos gerais */
 body {
     font-family: cambria, sans-serif;
-    background-color: #d39de4;
+    background-color: #f7efef;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -10,12 +10,12 @@ body {
 
 h1 {
     text-align: center;
-    color: #750479;
+    color: #FA4372;
     margin-top: 20px;
 }
 
 h2, h3 {
-    color: #4c0a4e;
+    color: #FA4372;
     text-align: left;
     padding-left: 20px;
     margin-top: 20px;
@@ -30,13 +30,13 @@ img {
     display: block;
     margin: 20px auto;
     border-radius: 50%;
-    border: 5px solid #5d0081;
+    border: 5px solid #FA4372;
 }
 
 /* Links do menu */
 a {
     text-decoration: none;
-    color: #a53bc5;
+    color:#FA4372;
     margin: 0 10px;
     font-weight: bold;
 }
@@ -62,7 +62,7 @@ th, td {
 }
 
 th {
-    background-color: #620f69;
+    background-color: #FA4372;
     color: rgb(255, 255, 255);
 }
 
@@ -72,7 +72,7 @@ section {
 }
 
 h3 {
-    border-bottom: 2px solid #984caf;
+    border-bottom: 2px solid #FA978C;
     padding-bottom: 5px;
     width: fit-content;
 }
