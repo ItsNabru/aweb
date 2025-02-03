@@ -2,7 +2,7 @@ body {
     font-family: 'Helvetica Neue', sans-serif ;
     margin: 0;
     padding: 0;
-    background-color: #ebebeb; 
+    background-color: #e7aeb8; 
     color: #c21d39; 
 
 }
@@ -61,7 +61,7 @@ header nav ul li a {
     font-family: 'verdana';
     padding: 20px;
     margin: 0px;
-    background-color: #e7aeb8; 
+    background-color: #ffffff; 
     border-radius: 0px;
     text-align: center;
     padding: 10 30px;
@@ -114,8 +114,9 @@ header nav ul li a {
 
 footer {
     text-align: center;
-    background-color: #e7aeb8; 
+    background-color: #c21d39; 
     padding: 10px 20px;
+    color: #ffffff;
     
 }
 
@@ -140,31 +141,31 @@ th {
 
 #habilidades {
     text-align: center;
-    width: 60%; /* Define a largura do conteúdo */
-    margin: 50px auto; /* Centraliza horizontalmente e adiciona espaço acima e abaixo */
+    width: 60%; 
+    margin: 50px auto; 
 }
 
 #sobre{
     text-align: center;
-    width: 60%; /* Define a largura do conteúdo */
-    margin: 50px auto; /* Centraliza horizontalmente e adiciona espaço acima e abaixo */
+    width: 60%; 
+    margin: 50px auto; 
 }
 
 #curiosidades {
     text-align: center;
-    width: 60%; /* Define a largura do conteúdo */
-    margin: 50px auto; /* Centraliza horizontalmente e adiciona espaço acima e abaixo */
+    width: 60%; 
+    margin: 50px auto; 
 }
 
 #causos{
     text-align: center;
-    width: 60%; /* Define a largura do conteúdo */
-    margin: 50px auto; /* Centraliza horizontalmente e adiciona espaço acima e abaixo */
+    width: 60%; 
+    margin: 50px auto; 
 }
 
 #educacao {
     text-align: center;
-    width: 60%; /* Define a largura do conteúdo */
-    margin: 50px auto; /* Centraliza horizontalmente e adiciona espaço acima e abaixo */
+    width: 60%; 
+    margin: 50px auto; 
 }
 
