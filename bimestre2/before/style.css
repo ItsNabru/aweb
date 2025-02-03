@@ -1,0 +1,136 @@
+/* Estilos gerais */
+body {
+    font-family: cambria, sans-serif;
+<<<<<<< HEAD:bimestre2/PagPessoalPersonalizada/style.css
+    background-color: #f7efef;
+=======
+    background-color: #ffffff;
+>>>>>>> c2d3896038636da73efbdc3de6ff26e422abd6e6:bimestre2/before/style.css
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ff3a6b; /* Cor de destaque */
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+<<<<<<< HEAD:bimestre2/PagPessoalPersonalizada/style.css
+    color: #FA4372;
+=======
+    color: #ff3a6b;
+>>>>>>> c2d3896038636da73efbdc3de6ff26e422abd6e6:bimestre2/before/style.css
+    margin-top: 20px;
+}
+
+h2, h3 {
+<<<<<<< HEAD:bimestre2/PagPessoalPersonalizada/style.css
+    color: #FA4372;
+=======
+    color: #ff3a6b;
+>>>>>>> c2d3896038636da73efbdc3de6ff26e422abd6e6:bimestre2/before/style.css
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+p {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+<<<<<<< HEAD:bimestre2/PagPessoalPersonalizada/style.css
+    border: 5px solid #FA4372;
+=======
+    border: 5px solid #ff3a6b;
+>>>>>>> c2d3896038636da73efbdc3de6ff26e422abd6e6:bimestre2/before/style.css
+}
+
+/* Links do menu */
+a {
+    text-decoration: none;
+<<<<<<< HEAD:bimestre2/PagPessoalPersonalizada/style.css
+    color:#FA4372;
+=======
+    color: #911937;
+>>>>>>> c2d3896038636da73efbdc3de6ff26e422abd6e6:bimestre2/before/style.css
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #333;
+}
+
+/* Tabela de educação */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+<<<<<<< HEAD:bimestre2/PagPessoalPersonalizada/style.css
+    background-color: #FA4372;
+=======
+    background-color: #ff3a6b;
+>>>>>>> c2d3896038636da73efbdc3de6ff26e422abd6e6:bimestre2/before/style.css
+    color: rgb(255, 255, 255);
+}
+
+/* Seções */
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+<<<<<<< HEAD:bimestre2/PagPessoalPersonalizada/style.css
+    border-bottom: 2px solid #FA978C;
+=======
+    border-bottom: 2px solid #ff3a6b;
+>>>>>>> c2d3896038636da73efbdc3de6ff26e422abd6e6:bimestre2/before/style.css
+    padding-bottom: 5px;
+    width: fit-content;
+}
+
+/* Lista de contatos */
+#CONTATOS ol {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#CONTATOS ol li {
+    padding: 5px 0;
+    color: #333;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgb(149, 54, 161);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
