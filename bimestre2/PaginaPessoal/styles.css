@@ -3,19 +3,27 @@ body {
     font-family: 'Helvetica Neue', sans-serif ;
     margin: 0;
     padding: 0;
-    background-color: #ebebeb; /* Cor de fundo principal */
-    color: #c21d39; /* Cor do texto principal */
+    background-color: #ebebeb; 
+    color: #c21d39; 
+
+}
+
+body header{
+    font-family: 'Helvetica Neue', sans-serif ;
+    margin: 10;
+    padding: 10;
+    background-color: #c21d39; 
+    color:#fff; 
 }
 
 header {
-    background-color: #c21d39; /* Cor secundária */
-    color: #fff;
+    background-color: #c21d39; 
     padding: 1px 2px;
     text-align: center;
 }
 
 header h1 {
-    margin: 0;
+    margin: 1;
 }
 
 header nav ul {
@@ -25,62 +33,80 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin:  10px;
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
 #hero {
     text-align: center;
     padding: 50px 20px;
-    background-color: #ffffff; /* Cor de destaque */
+    background-color: #ffffff; 
     color: #fff;
 }
 
 #hero img {
-    max-width: 25%;
+    max-width: 80%;
     height: auto;
-    border: 7px solid #c21d39;
-    border-radius: 50%;
 }
+
 
 #sobre, #curiosidades, #educacao, #causos, #habilidades, footer {
     font-family: 'verdana';
     padding: 20px;
     margin: 20px;
-    background-color: #fff; 
+    background-color: #e7aeb8; 
     border-radius: 8px;
     
+}
+
+#sobre, #educacao, #habilidades {
+    font-family: 'verdana';
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    
+}
+
+.estrutura{
+    width: 100%;
+    height: 100%;
+    display: inline;
 }
 
 .card-container {
     display: block;
     text-align: center;
     color: #fff;
+
 }
+
 
 .card {
     display: inline-block;
-    width: 25%;
+    width: 110px;
     margin: 1%;
-    background-color: #c21d39; 
-    padding: 10px;
+    height: 250px;
+    background-color:#c21d39; 
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(238, 101, 101, 0.1);
+    
 }
 
 .card img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    
 }
 
 footer {
     text-align: center;
-    background-color: #c21d39; /* Cor secundária */
-    color: #fff;
+    background-color: #e7aeb8; 
     padding: 10px 20px;
 }
