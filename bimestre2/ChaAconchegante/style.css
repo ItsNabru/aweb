@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background: #4CAF50;
+    background: #261420;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -50,7 +50,7 @@ nav ul li a {
 .mission h2, .featured h2, .locations h2 {
     margin-bottom: 20px;
     font-size: 2.5rem;
-    color: #4CAF50; /* Verde vibrante */
+    color: #592A2A; /* Verde vibrante */
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -71,7 +71,7 @@ nav ul li a {
 }
 
 .tea-item, .location-item {
-    background: #fff;
+    background: #D9B1A3;
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
@@ -88,13 +88,13 @@ nav ul li a {
 
 .tea-item h3, .location-item h3 {
     font-size: 1.5rem;
-    color: #4CAF50; /* Verde vibrante */
+    color: #592A2A; /* Verde vibrante */
     margin-bottom: 10px;
 }
 
 .tea-item p, .location-item p {
     font-size: 1rem;
-    color: #777;
+    color: #592A2A;
 }
 
 .locations {
@@ -103,7 +103,7 @@ nav ul li a {
 }
 
 footer {
-    background: #52ad46;
+    background: #592A2A;
     color: #fff;
     text-align: center;
     padding: 20px 0;
