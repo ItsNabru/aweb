@@ -1,123 +1,166 @@
-
-* {
+*{
+    padding: 0;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
 }
+/* HEADER */
 
-header {
-    background: #261420;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-header .logo img {
-    width: 300px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
-
-
-.mission, .featured, .locations {
-    padding: 80px 20px;
-    text-align: center;
-}
-
-.mission h2, .featured h2, .locations h2 {
-    margin-bottom: 20px;
-    font-size: 2.5rem;
-    color: #592A2A; /* Verde vibrante */
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.mission p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 0 auto;
-    color: #555;
-    line-height: 1.8;
-}
-
-.tea-items, .location-items {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 40px;
-}
-
-.tea-item, .location-item {
-    background: #D9B1A3;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    width: 30%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.tea-item img {
+header{
     width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
 }
 
-.tea-item h3, .location-item h3 {
-    font-size: 1.5rem;
-    color: #592A2A; /* Verde vibrante */
-    margin-bottom: 10px;
+.logo{
+    height: 50px;
+    padding: 10px;
 }
 
-.tea-item p, .location-item p {
-    font-size: 1rem;
-    color: #592A2A;
+nav a{
+    text-decoration: underline;
+    color: seashell;
+    padding: 10px;
 }
 
-.locations {
-    background: #f4f4f4;
-    padding: 80px 20px;
+/* MISSION */
+.mission-img{
+    height: 700px;
 }
 
-footer {
-    background: #592A2A;
-    color: #fff;
+#Mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mission{
+    background-color: black;
+    position: absolute;
+    width: 1200px;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
 }
 
+.mission h2{
+    padding: 10px;
+}
+
+.mission h4{
+    padding: 10px;
+}
+/* FEATURED TEA */
+
+#Featured{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured{
+    width: 1000px;
+    margin-top: 100px;
+    background-color: black;
+    text-align: center;
+}
+
+.featured h2{
+    padding: 10px;
+}
+
+.featured h4{
+    padding: 10px;
+}
+
+.tea img{
+    width: 300;
+    height: 200px;
+    margin: 10px;
+}
+
+.tea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+}
+/* LOCATIONS */
+
+.location{
+    height: 500px;
+    margin-top: 100px;
+   
+}
+
+#Locations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img-locations-background\ \(1\).jpg);
+
+}
+
+.locations{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.cards{
+    display: flex;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contato {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 35px;
+    flex-direction: column;
+}
 footer p {
-    margin: 0;
-    font-size: 0.9rem;
+    padding: 20px;
+    text-align: left;
 }
-
-
-
-.btn:hover {
-    background: #45a049; /* Verde mais escuro */
+footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-
